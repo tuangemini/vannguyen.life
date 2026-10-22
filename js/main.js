@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <p class="order-delivery-notice">📦 Đơn hàng sẽ được đóng gói cẩn thận từ Xã Mường Tè, Lai Châu và gửi chuyển phát nhanh tận tay Quý khách. Anh/Chị được mở hàng kiểm tra trước khi thanh toán tiền!</p>
             <div class="order-cta-group">
-              <a href="https://zalo.me/0988368125" target="_blank" class="btn btn-zalo">Nhắn Zalo xác nhận ngay</a>
+              <a href="https://zalo.me/0869327518" target="_blank" class="btn btn-zalo">Nhắn Zalo xác nhận ngay</a>
               <button type="button" class="btn btn-secondary" onclick="this.closest('#orderSuccessAlert').style.display='none'">Đóng</button>
             </div>
           </div>

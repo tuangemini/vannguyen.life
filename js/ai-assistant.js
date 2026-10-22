@@ -16,8 +16,10 @@
     brandName: 'Cô giáo Vân Nguyễn',
     brandDomain: 'vannguyen.life',
     location: 'Xã Mường Tè, huyện Mường Tè, tỉnh Lai Châu',
-    hotline: '0988.368.125', // Hotline tư vấn Cô giáo Vân Nguyễn
-    zalo: '0988.368.125',
+    hotline: '0869.327.518', // Hotline tư vấn Cô giáo Vân Nguyễn
+    zalo: '0869.327.518',
+    phoneRaw: '0869327518',
+    email: '0869327518vv@gmail.com',
     fabTitle: 'Hỏi Cô giáo Vân Nguyễn',
     fabSub: 'Tư vấn Tinh nghệ & Tinh dầu sả Mường Tè 24/7',
     fabBadge: 'Trực Tuyến',
@@ -58,7 +60,7 @@ Bối cảnh: Cô giáo Vân Nguyễn là giáo viên công tác tại rẻo cao
 3. CAM KẾT VÀ TÂM NGUYỆN CỦA CÔ GIÁO VÂN NGUYỄN:
    - "Bán hàng bằng sự tử tế của người giáo viên vùng cao": 100% nguyên chất, hoàn tiền gấp 10 lần nếu phát hiện pha tạp phụ gia hay phẩm màu.
    - Hàng được đóng gói cẩn thận, gửi tận tay khách hàng toàn quốc, được mở kiểm tra đúng chất lượng trước khi thanh toán.
-   - Hotline/Zalo Cô giáo Vân Nguyễn: ${CONFIG.hotline}.
+   - Hotline/Zalo Cô giáo Vân Nguyễn: ${CONFIG.hotline} • Email: ${CONFIG.email}.
 
 NGUYÊN TẮC TRẢ LỜI CỦA BẠN:
 1. Xưng hô: "Dạ, em chào Anh/Chị" hoặc "Cô giáo Vân Nguyễn xin chào Anh/Chị!", xưng "Em" hoặc "Vân Nguyễn". Thái độ chân thành, ấm áp, tận tâm, mộc mạc và chuẩn mực như một cô giáo vùng cao.
@@ -295,7 +297,7 @@ NGUYÊN TẮC TRẢ LỜI CỦA BẠN:
           </div>
         </div>
         <div class="vn-chat-actions">
-          <a href="tel:${CONFIG.hotline}" class="vn-action-btn" title="Gọi Hotline: ${CONFIG.hotline}">
+          <a href="tel:${CONFIG.phoneRaw}" class="vn-action-btn" title="Gọi Hotline: ${CONFIG.hotline}">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           </a>
           <button class="vn-action-btn" id="btnVnReset" title="Trò chuyện từ đầu">
