@@ -236,15 +236,4 @@ document.addEventListener('DOMContentLoaded', () => {
       videoElem.setAttribute('controls', 'true');
     });
   }
-
-  // 8. Auto-track CTA consultation buttons to trigger AI Widget
-  document.querySelectorAll('[data-ask-ai]').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const question = btn.getAttribute('data-ask-ai');
-      if (typeof window.openVanNguyenChat === 'function') {
-        window.openVanNguyenChat(question);
-      }
-    });
-  });
 });
